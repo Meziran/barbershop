@@ -1,0 +1,155 @@
+*{
+    background-color: #FFFFFF;
+    color: #555555;
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    list-style-type: none;
+    }
+ 
+.logo{
+    color: #303030;
+}
+.link{
+    color: #303030;
+
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+}
+.link:hover, 
+.link:target,
+.nav:hover,
+.nav:target
+{
+    color: #FF6C00;
+}
+.nav{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+
+       color: red; 
+    /* color: #FFFFFF; */
+}
+.btn-text{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    /* color: #FFFFFF; */
+    color: red;
+}
+.btn-text-black{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+
+color: #303030;
+
+}
+.title-section{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #303030;
+}
+.H1{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.18;
+
+color: red;
+/* color: #FFFFFF; */
+}
+.text-dark{
+    font-size: 18px;
+    line-height: 1.67;
+        
+    color: #9DA4BD;
+}
+.nav-slider{
+font-weight: 600;
+font-size: 11px;
+line-height: 1.36;
+letter-spacing: 0.1em;
+
+color: rgba(157, 164, 189, 0.6);
+}
+.nav-slider:hover,
+.nav-slider:target{
+     /* color: #FFFFFF; */
+     color: red;
+}
+.title{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+    
+    color: #303030;  
+}
+.title-text{
+    font-size: 18px;
+    line-height: 1.67;
+
+color: #555555;
+}
+.text{
+    font-size: 14px;
+    line-height: 1.86;
+
+color: #555555;
+}
+
+.title-section-dark{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+       letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: rgba(157, 164, 189, 0.6);
+}
+.title-dark{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+    
+    color: red;
+    /* color: #FFFFFF;   */
+}
+.h3{
+    font-family: Open Sans;
+
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.36;
+    /* text-align: center; */
+    letter-spacing: 0.05em;
+    
+    color: #303030;}
+
+    .sup{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.38;
+    
+        /* text-align: center; */
+
+        color: #FF6C00;
+    }
