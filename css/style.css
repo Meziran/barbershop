@@ -1,6 +1,13 @@
+:root{
+    --primery-text-color:#555555;
+    --dark-color: #303030;
+    --white-color: #FFFFFF;
+    --orange-color: #FF6C00;
+    --grey-color: #9DA4BD;
+}
 *{
-    background-color: #FFFFFF;
-    color: #555555;
+    background-color: var(--white-color);
+    color: var(--primery-text-color);
     font-family: Open Sans;
     font-style: normal;
     font-size: 18px;
@@ -10,10 +17,10 @@
     }
  
 .logo{
-    color: #303030;
+    color: var(--dark-color);
 }
 .link{
-    color: #303030;
+    color: var(--dark-color);
 
     font-weight: 600;
     font-size: 11px;
@@ -24,7 +31,7 @@
 .nav:hover,
 .nav:target
 {
-    color: #FF6C00;
+    color: var(--orange-color);
 }
 .nav{
     font-weight: 600;
@@ -33,7 +40,7 @@
     letter-spacing: 0.1em;
 
        color: red; 
-    /* color: #FFFFFF; */
+    /* color: var(--white-color);*/
 }
 .btn-text{
     font-weight: 600;
@@ -41,7 +48,7 @@
     line-height: 1.33;
     letter-spacing: 0.09em;
     text-transform: uppercase;
-    /* color: #FFFFFF; */
+    /* color: var(--white-color);*/
     color: red;
 }
 .btn-text-black{
@@ -51,7 +58,7 @@
     letter-spacing: 0.09em;
     text-transform: uppercase;
 
-color: #303030;
+    color: var(--dark-color);
 
 }
 .title-section{
@@ -62,7 +69,7 @@ color: #303030;
     letter-spacing: 0.1em;
     text-transform: uppercase;
 
-    color: #303030;
+    color: var(--dark-color);
 }
 .H1{
     font-family: Raleway;
@@ -70,26 +77,26 @@ color: #303030;
     font-size: 72px;
     line-height: 1.18;
 
-color: red;
-/* color: #FFFFFF; */
+    color: red; 
+    /* color: var(--white-color);*/
 }
 .text-dark{
     font-size: 18px;
     line-height: 1.67;
         
-    color: #9DA4BD;
+    color: var(--grey-color);
 }
 .nav-slider{
-font-weight: 600;
-font-size: 11px;
-line-height: 1.36;
-letter-spacing: 0.1em;
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.1em;
 
-color: rgba(157, 164, 189, 0.6);
+    color: rgba(157, 164, 189, 0.6);
 }
 .nav-slider:hover,
 .nav-slider:target{
-     /* color: #FFFFFF; */
+     /* color: var(--white-color);*/
      color: red;
 }
 .title{
@@ -99,26 +106,26 @@ color: rgba(157, 164, 189, 0.6);
     line-height: 1.17;
     letter-spacing: 0.05em;
     
-    color: #303030;  
+    color: var(--dark-color);
 }
 .title-text{
     font-size: 18px;
     line-height: 1.67;
 
-color: #555555;
+    color: var(--primery-text-color);
 }
 .text{
     font-size: 14px;
     line-height: 1.86;
 
-color: #555555;
+    color: var(--primery-text-color);
 }
 
 .title-section-dark{
     font-weight: 600;
     font-size: 11px;
     line-height: 1.36;
-       letter-spacing: 0.1em;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
 
     color: rgba(157, 164, 189, 0.6);
@@ -131,7 +138,7 @@ color: #555555;
     letter-spacing: 0.05em;
     
     color: red;
-    /* color: #FFFFFF;   */
+    /* color: var(--white-color); */
 }
 .h3{
     font-family: Open Sans;
@@ -139,17 +146,67 @@ color: #555555;
     font-weight: 700;
     font-size: 42px;
     line-height: 1.36;
-    /* text-align: center; */
     letter-spacing: 0.05em;
     
-    color: #303030;}
+    color: var(--dark-color);
+}
 
-    .sup{
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 1.38;
+.sup{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.38;
     
-        /* text-align: center; */
+    color: var(--orange-color);
+}
+.title-master{
+    font-size: 18px;
+    line-height: 1.39;
+   
+    color:  var(--dark-color);
+}
 
-        color: #FF6C00;
-    }
+.master{
+    font-size: 14px;
+    line-height: 1.36;
+
+    color: var(--orange-color);
+}
+
+.online-booking,
+.online-booking sup {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: rgba(157, 164, 189, 0.4);
+}
+
+.online-booking:hover,
+.online-booking:target,
+.online-booking sup:hover,
+.online-booking sup:target{
+    color: var(--white-color);
+}
+
+.time-work{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+
+    
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: red;
+    /* color: var(--white-color);*/
+}
+.copyright{
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+   
+    color: var(--grey-color);
+}
