@@ -43,6 +43,9 @@
     /* color: var(--white-color);*/
 }
 .btn-text{
+    width: 160px;
+    height: 40px;
+
     font-weight: 600;
     font-size: 12px;
     line-height: 1.33;
@@ -50,8 +53,14 @@
     text-transform: uppercase;
     /* color: var(--white-color);*/
     color: red;
+    border: 1px solid var(--orange-color);
+    box-sizing: border-box;
+    border-radius: 25px;
 }
 .btn-text-black{
+    width: 160px;
+    height: 40px;
+
     font-weight: 600;
     font-size: 12px;
     line-height: 1.33;
@@ -59,6 +68,9 @@
     text-transform: uppercase;
 
     color: var(--dark-color);
+    border: 1px solid var(--orange-color);
+    box-sizing: border-box;
+    border-radius: 25px;
 
 }
 .title-section{
